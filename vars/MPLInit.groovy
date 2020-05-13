@@ -1,5 +1,5 @@
 def call() {
   // Using the MPL library and adding the custom path to find modules
-  library('mpl')
+  library('cjf-mpl')
   MPLModulesPath('com/ceva/cjflib')
 }
