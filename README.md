@@ -1,2 +1,1 @@
-# cjf-mpl
-mpl for Jenkins
+CJF Nested library for jenkins pipeline
