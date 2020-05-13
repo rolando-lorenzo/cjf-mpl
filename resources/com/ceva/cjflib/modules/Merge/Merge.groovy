@@ -1,0 +1,1 @@
+ MPLModule('Git Merge', CFG)

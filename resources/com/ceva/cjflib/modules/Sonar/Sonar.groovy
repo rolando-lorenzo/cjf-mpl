@@ -1,0 +1,1 @@
+ MPLModule('Analysis Sonar', CFG)
