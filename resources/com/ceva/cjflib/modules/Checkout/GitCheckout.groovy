@@ -3,7 +3,7 @@
  */
 
 sh 'printenv'
-sh "export no_proxy=.logistics.corp"
+//sh "export no_proxy=.logistics.corp"
 
     checkout([
                     $class: 'GitSCM', 
