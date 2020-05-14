@@ -1,5 +1,7 @@
 def call(body) {
   
+  MPLInit();
+  
    def MPL = MPLPipelineConfig(body, [
     modules: [
       Checkout: [:],
