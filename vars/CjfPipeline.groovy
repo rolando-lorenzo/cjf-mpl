@@ -13,9 +13,7 @@ def call(body) {
   ])
  
    pipeline {  
-    agent {
-      label any
-    }
+    agent any
     tools {
         maven 'M3'
         jdk 'JDK8'  
