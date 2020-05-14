@@ -2,11 +2,8 @@ def call(body) {
   
    def MPL = MPLPipelineConfig(body, [
     modules: [
-      ManualBuild: [:],
       Checkout: [:],
-	  Merge: [:],
       Build: [:],
-	  Sonar: [:],
       Deploy: [:],
       Tag: [:]
     ]
@@ -23,41 +20,18 @@ def call(body) {
 		booleanParam(name: 'forceDeploy', defaultValue: false, description: 'Do you want to force the deployment?' )
     }
     stages {
-      stage('ManualBuild'){
-            when {
-                  expression{
-	    			  return env.gitlabUserName == null	    			
-	    		}
-         }
-            steps{
-                MPLModule()
-            }
-        }
+      
       stage('Checkout'){
             steps{
                 MPLModule()
             }
         }
-	  stage('Merge'){
-        	when {
-                  expression{
-	    			  return env.gitlabActionType == 'MERGE' && env.gitlabMergeRequestState != 'merged'
-	    		}
-         }
-            steps{
-                MPLModule()
-            }
-	    }
+	  
       stage('Build'){
             steps{
                 MPLModule()
             }
 	    }
-	  stage('Sonar'){
-            steps{
-                MPLModule()
-            }
-        }
 	  stage('Deploy'){
 		    when {
                   expression{
