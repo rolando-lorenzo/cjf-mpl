@@ -21,7 +21,7 @@
 // @Description: Shared Jenkins Modular Pipeline Library
 //
 
-import com.griddynamics.devops.mpl.MPLManager
+import com.ceva.cjflib.MPLManager
 
 /**
  * Determine is module enabled in the pipeline or not

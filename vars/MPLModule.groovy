@@ -21,10 +21,10 @@
 // @Description: Shared Jenkins Modular Pipeline Library
 //
 
-import com.griddynamics.devops.mpl.Helper
-import com.griddynamics.devops.mpl.MPLManager
-import com.griddynamics.devops.mpl.MPLModuleException
-import com.griddynamics.devops.mpl.MPLConfig
+import com.ceva.cjflib.Helper
+import com.ceva.cjflib.MPLManager
+import com.ceva.cjflib.MPLModuleException
+import com.ceva.cjflib.MPLConfig
 
 import org.jenkinsci.plugins.workflow.steps.FlowInterruptedException
 

@@ -21,11 +21,11 @@
 // @Description: Shared Jenkins Modular Pipeline Library
 //
 
-package com.griddynamics.devops.mpl
+package com.ceva.cjflib
 
 import com.cloudbees.groovy.cps.NonCPS
-import com.griddynamics.devops.mpl.Helper
-import com.griddynamics.devops.mpl.MPLException
+import com.ceva.cjflib.Helper
+import com.ceva.cjflib.MPLException
 
 /**
  * Configuration object to provide the config interface

@@ -21,7 +21,7 @@
 // @Description: Shared Jenkins Modular Pipeline Library
 //
 
-package com.griddynamics.devops.mpl
+package com.ceva.cjflib
 
 /**
  * Exception to handle module execution errors
@@ -29,4 +29,4 @@ package com.griddynamics.devops.mpl
  * @author Sergei Parshev <sparshev@griddynamics.com>
  */
 @groovy.transform.InheritConstructors
-class MPLModuleException extends MPLException {}
+class MPLException extends RuntimeException {}

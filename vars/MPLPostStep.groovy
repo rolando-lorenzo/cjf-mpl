@@ -21,7 +21,7 @@
 // @Description: Shared Jenkins Modular Pipeline Library
 //
 
-import com.griddynamics.devops.mpl.MPLManager
+import com.ceva.cjflib.MPLManager
 
 /**
  * Add poststeps block to the list

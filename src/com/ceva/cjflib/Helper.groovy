@@ -21,7 +21,7 @@
 // @Description: Shared Jenkins Modular Pipeline Library
 //
 
-package com.griddynamics.devops.mpl
+package com.ceva.cjflib
 
 import java.nio.file.Paths
 
@@ -41,8 +41,8 @@ import hudson.model.Run
 import hudson.FilePath
 import jenkins.model.Jenkins
 
-import com.griddynamics.devops.mpl.MPLManager
-import com.griddynamics.devops.mpl.MPLException
+import com.ceva.cjflib.MPLManager
+import com.ceva.cjflib.MPLException
 
 /**
  * Manages all helpers to interact with low-level groovy
