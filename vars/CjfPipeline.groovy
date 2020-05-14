@@ -14,7 +14,7 @@ def call(body) {
  
    pipeline {  
     agent {
-      label 'CEVA_LINUX'
+      label any
     }
     tools {
         maven 'M3'
