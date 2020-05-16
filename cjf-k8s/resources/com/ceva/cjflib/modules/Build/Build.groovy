@@ -1,1 +1,0 @@
- MPLModule('Maven Build', CFG)
