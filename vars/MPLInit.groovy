@@ -1,4 +1,4 @@
 def call() {
-   library('cjf-mpl')
+   library('mpl')
    MPLModulesPath('com/ceva/cjflib')
 }
