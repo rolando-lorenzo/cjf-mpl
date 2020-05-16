@@ -14,7 +14,7 @@ def call(body) {
    pipeline {  
     agent any
     tools {
-        maven 'M3'
+        maven 'Maven 3'
         jdk 'JDK8'  
     }
       	parameters{
