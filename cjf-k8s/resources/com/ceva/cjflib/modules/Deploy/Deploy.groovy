@@ -1,0 +1,1 @@
+ MPLModule('Openshift Deploy', CFG)

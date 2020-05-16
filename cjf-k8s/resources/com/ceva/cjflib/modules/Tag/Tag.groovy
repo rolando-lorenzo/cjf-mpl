@@ -1,0 +1,1 @@
+ MPLModule('Git Tag', CFG)

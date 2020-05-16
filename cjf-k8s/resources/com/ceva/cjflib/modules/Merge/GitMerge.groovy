@@ -1,0 +1,5 @@
+ sh "echo 'Merge source gitlabSourceBranch to gitlabTargetBranch without commit. Verify merge conflict, Perform build and test.'"
+ sh "git config remote.origin.url ${CFG.'git.url'}"
+ sh "git pull origin ${gitlabTargetBranch}"
+ sh "git checkout ${gitlabTargetBranch}"
+ sh "git merge ${gitlabSourceBranch} --no-commit --no-ff"
